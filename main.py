@@ -25,7 +25,7 @@ def upload_file():
         filename = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
         file.save(filename)
 
-        # Define the command to run on the uploaded file
+        # Define the command to run on the uploaded files
         command = f'demucs -n mdx_extra_q {filename}'
 
         try:
