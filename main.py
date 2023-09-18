@@ -26,7 +26,7 @@ def upload_file():
         file.save(filename)
 
         # Define the command to run on the uploaded files
-        command = f'demucs -n mdx_extra_q {filename}'
+        command = f'demucs -n mdx_extra {filename}'
 
         try:
             # Run the command asynchronously

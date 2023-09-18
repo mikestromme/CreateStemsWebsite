@@ -1,7 +1,10 @@
 Tested with Python 3.10
 
 ## Example
-demucs -n mdx_extra_q input/Barracuda.mp3
+## tested mdx_extra_q, mdx_extra, htdemuc_dt and ht_demucs on Girl Gone Bad and mdx_extra was the best
+demucs -n mdx_extra "To Process/You Really Got Me.mp3"
+
+
 
 may need to install ffmpeg - sudo apt install ffmpeg
 
