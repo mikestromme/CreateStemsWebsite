@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RES40B3QWY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RES40B3QWY');
+</script>
+
+
+<body>
+
+  <div class="header">
+    <img src="{{ url_for('static', filename='header.jpg') }}" alt="Band">
+    <div class="centered">
+        <p>Make Backing Tracks</p>
+        <p>Coming Soon: Separate stems and create your own custom mixes for instrument practice!!!!</p>
+    </div>
+</div>
+
+
+
+<h2>Upload File</h2>
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+  Select file to upload:
+  <input type="file" name="file" id="file">
+  <input type="submit" value="Upload" name="submit">
+</form>
+
+</body>
+</html>
