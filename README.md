@@ -2,7 +2,7 @@ Tested with Python 3.10
 
 ## Example
 ## tested mdx_extra_q, mdx_extra, htdemuc_dt and ht_demucs on Girl Gone Bad and mdx_extra was the best
-demucs -n mdx_extra "To Process/You Really Got Me.mp3"
+demucs -n htdemucs_ft --mp3-preset 2 "To Process/You Really Got Me.mp3"
 
 
 
